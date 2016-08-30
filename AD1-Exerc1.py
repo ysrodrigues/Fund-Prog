@@ -38,8 +38,8 @@ f.close() ### fecha o arquivo génerico de entrada
 ###### Lendo até o usuário colocar -1 ######
 
 while (True):
-    num = int(input('Entre com o número: '))
-    if(num == -1):
+    num = int(input('Entre com o número: ')) ### Input com um texto para melhor indicar o que deve ser feito. (Mas acho que no exercicio tem apagar o "Entre com o numero: ") 
+    if(num == -1): ### Sai do loop se digitar -1
         break
     for i in range(2, 10): ### se não for -1, imprime todos os valores nas bases de 2 a 9
         if(i == 9): ### Verifica se é a ultima base para pode colocar a quebra de linha corretamente
